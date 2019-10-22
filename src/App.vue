@@ -1,7 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <!-- Navbar here -->
+    <!-- <navbar/> -->
+    <b-container style="flex: 1;">
+      <h3>Thomas J's online portfolio</h3>
+      <hr>
+      <!-- {{ $store.state.count }}
+      <b-button variant="info" v-on:click="$store.commit('increment')">increment state</b-button> -->
+      <router-view/>
+    </b-container>
+
+    <thomas-footer/>
   </div>
 </template>
 
@@ -12,12 +21,9 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
 </style>
