@@ -1,6 +1,6 @@
 <template lang="html">
   <!-- Sticky footer here -->
-  <div>
+  <div class="mt-4">
     <b-navbar>
       <b-container>
         &copy; thomasj.me &sdot; {{ year }}

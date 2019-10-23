@@ -1,7 +1,23 @@
 <template lang="html">
-  <div class="">
-    <h1>About page</h1>
-    <router-link :to="{ name: 'Home', params: {} }">home page</router-link>
+  <div>
+    <h3>About</h3>
+
+    <b-navbar class="mb-3">
+      <b-navbar-nav>
+        <b-nav-item :to="{ name: 'Home', params: {} }">
+          Home
+        </b-nav-item>
+        <b-nav-item :to="{ name: 'Projects', params: {} }">
+          Projects
+        </b-nav-item>
+        <b-nav-item :to="{ name: 'Blog', params: {} }">
+          Blog
+        </b-nav-item>
+        <b-nav-item :to="{ name: 'Contact', params: {} }">
+          Contact
+        </b-nav-item>
+      </b-navbar-nav>
+    </b-navbar>
   </div>
 </template>
 
