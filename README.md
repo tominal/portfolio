@@ -1,5 +1,5 @@
-### Thomas J's Online Portfolio
-Repository holding the magic to the portfolio.
+### Thomas's Online Portfolio
+Repository containing the portfolio's source code.
 
 ***
 
