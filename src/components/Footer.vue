@@ -3,7 +3,7 @@
   <div class="mt-4">
     <b-navbar>
       <b-container>
-        &copy; thomasj.me &sdot; {{ year }}
+        &copy; thomasj.me &sdot; 2016 - {{ year }}
       </b-container>
     </b-navbar>
   </div>

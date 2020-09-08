@@ -1,28 +1,21 @@
 <template lang="html">
   <div>
-    <h3>Contact me</h3>
+    <navbar />
 
-    <b-navbar class="mb-3">
-      <b-navbar-nav>
-        <b-nav-item :to="{ name: 'Home', params: {} }">
-          Home
-        </b-nav-item>
-        <b-nav-item :to="{ name: 'About', params: {} }">
-          About me
-        </b-nav-item>
-        <b-nav-item :to="{ name: 'Projects', params: {} }">
-          Projects
-        </b-nav-item>
-        <b-nav-item :to="{ name: 'Blog', params: {} }">
-          Blog
-        </b-nav-item>
-      </b-navbar-nav>
-    </b-navbar>
+    <h3 class="border-bottom pb-2">Contact me</h3>
+
+    <p>I do not have a form for contact. Probably because I don't care for it.</p>
+
+    <p>If you need to get in contact with me, email me: tom@thomasj.me</p>
   </div>
 </template>
 
 <script>
+  import Navbar from '../components/Navbar'
 export default {
+    components: {
+      'navbar': Navbar
+    }
 }
 </script>
 

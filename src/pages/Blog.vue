@@ -1,28 +1,21 @@
 <template lang="html">
   <div>
-    <h3>Blog</h3>
+    <navbar />
 
-    <b-navbar class="mb-3">
-      <b-navbar-nav>
-        <b-nav-item :to="{ name: 'Home', params: {} }">
-          Home
-        </b-nav-item>
-        <b-nav-item :to="{ name: 'About', params: {} }">
-          About me
-        </b-nav-item>
-        <b-nav-item :to="{ name: 'Projects', params: {} }">
-          Projects
-        </b-nav-item>
-        <b-nav-item :to="{ name: 'Contact', params: {} }">
-          Contact
-        </b-nav-item>
-      </b-navbar-nav>
-    </b-navbar>
+    <h3 class="pb-2 border-bottom">Blog</h3>
+
+    <blog :id="$route.params.id" />
   </div>
 </template>
 
 <script>
+  import Navbar from "../components/Navbar";
+  import Blog from "../components/Blog"
 export default {
+  components: {
+    'navbar': Navbar,
+    'blog': Blog
+  }
 }
 </script>
 
