@@ -15,7 +15,7 @@ Repository containing the portfolio's source code.
 
 For the front end:
 
-```npm install && npm run dev```
+```npm i && npm run dev```
 
 For the back end:
 
