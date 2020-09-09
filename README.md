@@ -28,3 +28,7 @@ Change the .env settings to match your setup.
 ```composer install && chmod 777 bootstrap/cache/* -R && chmod 777 storage/* -R && cp .env.example .env && php artisan key:generate && php artisan migrate```
 
 Public files are stored in public/
+
+### **Contributors**
+
+Thank you to all the authors in the package.json and composer.json files. Without y'all, easy little apps like this wouldn't be possible!
