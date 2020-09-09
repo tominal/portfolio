@@ -11,6 +11,16 @@ Repository containing the portfolio's source code.
 
 ***
 
+### **Requirements** (Linux)
+
+- Apache server
+- MySQL server
+- PHP >= 7
+- Composer
+- NPM
+
+***
+
 ### **Installation** (Linux)
 
 For the front end:
