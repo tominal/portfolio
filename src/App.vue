@@ -21,9 +21,10 @@
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+  import Thomas from './apis/Thomas'
+  export default {
+    name: 'App'
+  }
 </script>
 
 <style>
