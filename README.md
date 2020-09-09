@@ -11,7 +11,7 @@ Repository containing the portfolio's source code.
 
 ***
 
-### **Installation**
+### **Installation** (Linux)
 
 For the front end:
 
@@ -19,4 +19,4 @@ For the front end:
 
 For the back end:
 
-```composer install && php artisan serve```
+```composer install && chmod 777 bootstrap/cache/* -R && chmod 777 storage/* -R && cp .env.example .env && php artisan key:generate && php artisan serve --port 8001```
