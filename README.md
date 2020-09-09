@@ -17,7 +17,7 @@ For the front end:
 
 ```npm i && npm run build```
 
-Public files are stored in static/
+Public files are stored in dist/
 
 For the back end:
 
