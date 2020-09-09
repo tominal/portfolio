@@ -15,7 +15,7 @@ Repository containing the portfolio's source code.
 
 For the front end:
 
-Change the .env settings to match your setup.
+Change the config/prod.env.js settings to match your setup.
 
 ```npm i && npm run build```
 
