@@ -4,6 +4,7 @@ import About from '@/pages/About'
 import Blog from '@/pages/Blog'
 import Projects from '@/pages/Projects'
 import Contact from '@/pages/Contact'
+import Login from '@/pages/Login'
 
 Vue.use(Router)
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
     }
   ]
 })

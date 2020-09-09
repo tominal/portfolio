@@ -2,6 +2,6 @@ import axios from 'axios'
 
 export default {
   blog(f) {
-    // return this.$http.post('')
+    return axios.post(process.env.API_URL + "/api/blogs", f)
   }
 }

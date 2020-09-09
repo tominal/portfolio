@@ -4,6 +4,11 @@
     <b-navbar>
       <b-container>
         &copy; thomasj.me &sdot; 2016 - {{ year }}
+        <span class="float-right">
+          <router-link :to="{ name: 'Login' }" class="text-decoration-none">
+            Login
+          </router-link>
+        </span>
       </b-container>
     </b-navbar>
   </div>
