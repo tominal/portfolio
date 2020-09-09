@@ -15,8 +15,12 @@ Repository containing the portfolio's source code.
 
 For the front end:
 
-```npm i && npm run dev```
+```npm i && npm run build```
+
+Public files are stored in static/
 
 For the back end:
 
-```composer install && chmod 777 bootstrap/cache/* -R && chmod 777 storage/* -R && cp .env.example .env && php artisan key:generate && php artisan serve --port 8001```
+```composer install && chmod 777 bootstrap/cache/* -R && chmod 777 storage/* -R && cp .env.example .env && php artisan key:generate && php artisan migrate```
+
+Public files are stored in public/
