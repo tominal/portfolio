@@ -8,6 +8,8 @@ vendor/
 bootstrap/
 storage/
 .env
+*.JPG
+*.jpg
 
 # Editor directories and files
 .idea

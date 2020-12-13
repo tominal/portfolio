@@ -4,7 +4,7 @@
 
     <h3 class="border-bottom pb-2">Contact me</h3>
 
-    <p>I do not have a form for contact. Probably because I don't care for it.</p>
+    <p>I do not have a form for contact.</p>
 
     <p>
       If you need to get in contact with me, email me:

@@ -1,33 +1,36 @@
 <template lang="html">
-  <!-- Sticky footer here -->
-  <div class="mt-4">
-    <b-navbar>
-      <b-container>
-        &copy; thomasj.me &sdot; 2016 - {{ year }}
-        <span class="float-right">
-          <router-link :to="{ name: 'Login' }" class="text-decoration-none">
-            Login
-          </router-link>
+    <!-- Sticky footer here -->
+    <div class="mt-4">
+        <b-navbar>
+            <b-container>
+                &copy; thomasj.me &sdot; 2016 - {{ year }}
+            <span class="float-right">
+            <a href="https://github.com/tominal" class="text-decoration-none" target="_blank">
+                GitHub
+            </a> &sdot;
+            <a href="https://linkedin.com/in/tom-j" target="_blank">
+                LinkedIn
+            </a>
         </span>
-      </b-container>
-    </b-navbar>
-  </div>
+            </b-container>
+        </b-navbar>
+    </div>
 </template>
 
 <script>
 import moment from 'moment'
 
 export default {
-  data() {
-    return {
-      year: moment().format('Y')
+    data() {
+        return {
+            year: moment().format('Y')
+        }
     }
-  }
 }
 </script>
 
 <style media="screen">
-  .navbar {
+.navbar {
     background-color: #eee
-  }
+}
 </style>
