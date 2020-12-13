@@ -5,7 +5,6 @@
 </template>
 
 <script>
-  import Thomas from '../apis/Thomas'
   export default {
     props: {
       id: Number
@@ -16,7 +15,7 @@
       }
     },
     mounted() {
-      this.getBlog(this.id)
+      
     },
     methods: {
       getBlog(bid) {

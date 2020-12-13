@@ -81,7 +81,6 @@
 
 <script>
   import DashBlog from '../components/DashBlog'
-  import Thomas from "../apis/Thomas";
   import { mapGetters } from "vuex"
 
   export default {
@@ -107,21 +106,10 @@
     },
     methods: {
       loadBlogs() {
-        Thomas.blogs().then(r => {
-          this.blogs = r.data
-          this.blogsLoading = false
-        })
+
       },
       createBlog() {
-        Thomas.createBlog({
-          title: this.title,
-          content: this.content
-        }).then(r => {
-          if(r.data.status === 'success') {
-            this.loadBlogs()
-            this.resetBlog()
-          }
-        })
+
       },
       resetBlog() {
         this.title = ""

@@ -21,7 +21,6 @@
 </template>
 
 <script>
-  import Thomas from './apis/Thomas'
   export default {
     name: 'App'
   }

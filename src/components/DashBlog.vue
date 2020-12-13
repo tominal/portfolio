@@ -19,7 +19,6 @@
 </template>
 
 <script>
-  import Thomas from '../apis/Thomas'
   export default {
     props: {
       blog: Object

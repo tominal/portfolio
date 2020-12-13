@@ -48,21 +48,21 @@
           {
             id: 2,
             name: "CSS3 - Frosted Glass",
-            img: '//images.weserv.nl/?url=cdn.thomasj.me/img/small/stuff/vOSpVaNhBF5NssYxgO89JZ632WlU7FteXrXOPPf5.png',
+            img: '//images.weserv.nl/?url=i.imgur.com/4nrWkkk.png',
             desc: 'An open source repo explaining the frosted glass technique seen on popular video games and websites.',
             link: '//github.com/tominal/frostedglasscss'
           },
           {
             id: 3,
-            name: "EarthThoughts",
-            img: '//images.weserv.nl/?url=cdn.thomasj.me/img/small/stuff/gtXwnSIFvD3NB1KZKU4Xt5mOaTiRDID2aLD0VMpv.png',
+            name: "Pics Database",
+            img: '//images.weserv.nl/?url=i.imgur.com/jf5gPvz.png&q=95',
             desc: 'Ingesting APIs from Reddit to produce a combination of /r/ShowerThoughts and /r/EarthPorn. Best viewed on Google Chrome because of Firefox\'s content blocking.',
-            link: '//admin.thomasj.me/projects/earththoughts/'
+            link: '//pics.thomasj.me'
           },
           {
             id: 4,
             name: "Monolith Servers' Store",
-            img: '//images.weserv.nl/?url=cdn.thomasj.me/img/small/stuff/4GPsyyFm8MqNb4y3L2dm8IthWZPuGPa0xG5h8eW7.png',
+            img: '//images.weserv.nl/?url=i.imgur.com/RbLzH7P.png',
             desc: 'A custom built webstore that allows players to purchase a premium membership. Integrated with payment processing company Paddle.',
             link: '//monolithservers.com/store'
           },
@@ -70,8 +70,8 @@
             id: 5,
             name: "Clear the Smoke - BPA",
             img: '//images.weserv.nl/?url=cdn.thomasj.me/img/small/stuff/W8zMysIzhZH5VqgcMkSJKydhBjXc6WMe1zIxCUfx.png',
-            desc: 'A high school team project that we took to Business Professionals of America winning 2nd place in State.',
-            link: '//admin.thomasj.me/projects/bpa/'
+            desc: 'A team project that we took to Business Professionals of America winning 2nd place in State.',
+            link: '//thomasj.me/projects/bpa/'
           }
         ]
       }
