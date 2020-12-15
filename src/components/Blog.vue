@@ -1,33 +1,33 @@
 <template>
-  <div>
-    {{ content }}
-  </div>
+    <div>
+        {{ content }}
+    </div>
 </template>
 
 <script>
-  export default {
+export default {
     props: {
-      id: Number
+        id: Number
     },
     data() {
-      return {
-        content: ''
-      }
+        return {
+            content: ''
+        }
     },
     mounted() {
-      
+
     },
     methods: {
-      getBlog(bid) {
-        // Thomas.blog({
-        //   id: bid
-        // }).then(r => {
-        //   this.content = r.data
-        //
-        //   this.content = 'Placeholder here'
-        // })
-        this.content = 'Placeholder here'
-      }
+        getBlog(bid) {
+            // Thomas.blog({
+            //   id: bid
+            // }).then(r => {
+            //   this.content = r.data
+            //
+            //   this.content = 'Placeholder here'
+            // })
+            this.content = 'Placeholder here'
+        }
     }
-  }
+}
 </script>

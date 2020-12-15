@@ -3,7 +3,7 @@
     <div class="mt-4">
         <b-navbar>
             <b-container>
-                &copy; thomasj.me &sdot; 2016 - {{ year }}
+                &copy; thomasj.me &sdot; {{ year }}
             <span class="float-right">
             <a href="https://github.com/tominal" class="text-decoration-none" target="_blank">
                 GitHub
