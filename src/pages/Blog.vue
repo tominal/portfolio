@@ -26,10 +26,14 @@
 <script>
 import Navbar from "../components/Navbar";
 import Blog from "../components/Blog"
+import axios from 'axios'
 
 export default {
     mounted() {
-
+        axios.get('http://personal.blog/jsonapi/node/article').then(r => {
+            this.blogs = []
+            this.blogs = r.data.data
+        })
     },
     components: {
         'navbar': Navbar,
